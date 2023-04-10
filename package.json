@@ -23,5 +23,8 @@
   "devDependencies": {},
   "peerDependencies": {
     "stylelint": "^15.1.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
