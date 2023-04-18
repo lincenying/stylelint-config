@@ -8,7 +8,7 @@
     "standard",
     "scss"
   ],
-  "repository": "stylelint-scss/stylelint-config-lcy",
+  "repository": "lincenying/stylelint-config",
   "license": "MIT",
   "author": "lincenying",
   "main": "index.js",
