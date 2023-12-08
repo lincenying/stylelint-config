@@ -20,8 +20,8 @@
     "release": "bumpp && npm publish -r --access public"
   },
   "dependencies": {
-    "stylelint": "^15.9.0",
-    "stylelint-config-standard-scss": "^10.0.0",
+    "stylelint": "^15.11.0",
+    "stylelint-config-standard-scss": "^11.1.0",
     "stylelint-order": "^6.0.2"
   },
   "devDependencies": {
