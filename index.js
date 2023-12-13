@@ -6,7 +6,6 @@ module.exports = {
     rules: {
         'alpha-value-notation': null,
         'color-function-notation': 'legacy',
-        indentation: 4,
         'no-descending-specificity': null,
         'unit-case': null,
         'scss/dollar-variable-pattern': null,

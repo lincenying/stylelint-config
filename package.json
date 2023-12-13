@@ -20,16 +20,16 @@
     "release": "bumpp && npm publish -r --access public"
   },
   "dependencies": {
-    "stylelint": "^15.11.0",
-    "stylelint-config-standard-scss": "^11.1.0",
-    "stylelint-order": "^6.0.2"
+    "stylelint": "^16.0.2",
+    "stylelint-config-standard-scss": "^12.0.0",
+    "stylelint-order": "^6.0.4"
   },
   "devDependencies": {
-    "bumpp": "^9.2.0",
+    "bumpp": "^9.2.1",
     "simple-open-url": "^3.0.1"
   },
   "peerDependencies": {
-    "stylelint": "^15.1.0"
+    "stylelint": "^16.0.2"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
