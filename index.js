@@ -1,5 +1,3 @@
-'use strict'
-
 module.exports = {
     plugins: ['stylelint-order'],
     extends: ['stylelint-config-standard-scss'],
@@ -7,7 +5,6 @@ module.exports = {
         'alpha-value-notation': null,
         'color-function-notation': 'legacy',
         'no-descending-specificity': null,
-        'unit-case': null,
         'scss/dollar-variable-pattern': null,
         'selector-type-no-unknown': null,
         'selector-class-pattern': null,
