@@ -1,6 +1,6 @@
 {
   "name": "@lincy/stylelint-config",
-  "version": "1.17.2",
+  "version": "1.17.3",
   "description": "Stylelint configuration",
   "keywords": [
     "stylelint",
