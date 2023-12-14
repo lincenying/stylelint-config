@@ -154,7 +154,7 @@ module.exports = {
         "codeguide/selector-pseudo-class-parentheses-space-inside": "never",
         "codeguide/selector-pseudo-element-case": "lower",
         "codeguide/string-quotes": "double",
-        "codeguide/unit-case": "lower",
+        // "codeguide/unit-case": "lower",
         "codeguide/value-list-comma-newline-after": "always-multi-line",
         "codeguide/value-list-comma-space-after": "always-single-line",
         "codeguide/value-list-comma-space-before": "never",
