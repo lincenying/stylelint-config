@@ -124,7 +124,7 @@ module.exports = {
         "codeguide/function-whitespace-after": "always",
         "codeguide/indentation": 4,
         "codeguide/max-empty-lines": 1,
-        "codeguide/max-line-length": 120,
+        "codeguide/max-line-length": 500,
         "codeguide/media-feature-colon-space-after": "always",
         "codeguide/media-feature-colon-space-before": "never",
         "codeguide/media-feature-name-case": "lower",
