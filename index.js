@@ -4,6 +4,7 @@ module.exports = {
     rules: {
         "alpha-value-notation": null,
         "color-function-notation": "legacy",
+        "media-feature-range-notation": null,
         "no-descending-specificity": null,
         "selector-type-no-unknown": null,
         "selector-class-pattern": null,
