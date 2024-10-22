@@ -245,6 +245,7 @@ export default {
         "at-rule-empty-line-before": [
             "always",
             {
+                "except": ["after-same-name"],
                 ignoreAtRules: ["else", "include"],
             },
         ],

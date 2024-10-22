@@ -21,15 +21,15 @@
     "release": "bumpp && npm publish -r --access public"
   },
   "dependencies": {
-    "@stylistic/stylelint-plugin": "^3.0.1",
-    "stylelint": "^16.9.0",
+    "@stylistic/stylelint-plugin": "^3.1.1",
+    "stylelint": "^16.10.0",
     "stylelint-config-standard-scss": "^13.1.0",
     "stylelint-order": "^6.0.4",
-    "stylelint-scss": "^6.6.0"
+    "stylelint-scss": "^6.8.1"
   },
   "devDependencies": {
     "@lincy/stylelint-config": "workspace:*",
-    "bumpp": "^9.5.2",
+    "bumpp": "^9.7.1",
     "simple-open-url": "^3.0.1"
   },
   "peerDependencies": {
