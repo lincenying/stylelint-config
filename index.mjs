@@ -17,12 +17,14 @@ export default {
         "scss/dollar-variable-pattern": null,
 
         "order/properties-order": [
+            // 定位
             "position",
             "top",
             "right",
             "bottom",
             "left",
             "z-index",
+            // 布局
             "display",
             "justify-items",
             "justify-content",
@@ -32,6 +34,7 @@ export default {
             "flex-flow",
             "flex-direction",
             "float",
+            // 盒子尺寸
             "width",
             "height",
             "max-width",
@@ -53,11 +56,13 @@ export default {
             "margin-right-collapse",
             "margin-bottom-collapse",
             "margin-left-collapse",
+            // 盒子显示
             "overflow",
             "overflow-x",
             "overflow-y",
             "clip",
             "clear",
+            // 文本样式
             "font",
             "font-family",
             "font-size",

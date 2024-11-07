@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@lincy/stylelint-config": "workspace:*",
-    "bumpp": "^9.7.1",
+    "bumpp": "^9.8.1",
     "simple-open-url": "^3.0.1"
   },
   "peerDependencies": {
