@@ -18,7 +18,8 @@
   ],
   "scripts": {
     "postpublish": "simple-open-url https://npmmirror.com/package/@lincy/stylelint-config",
-    "release": "bumpp && npm publish -r --access public"
+    "release": "bumpp && npm publish -r --access public",
+    "lint:css": "stylelint '**/*.{css,scss}' --fix"
   },
   "dependencies": {
     "@stylistic/stylelint-plugin": "^3.1.1",
