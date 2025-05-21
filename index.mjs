@@ -5,6 +5,18 @@ export default {
         "stylelint-order",
     ],
     extends: ["stylelint-config-standard-scss"],
+    ignoreFiles: [
+        '**/*.js',
+        '**/*.jsx',
+        '**/*.tsx',
+        '**/*.ts',
+        '**/*.json',
+        '**/*.md',
+        '**/*.yaml',
+        'dist/*',
+        'node_modules/*',
+        'uni_modules/*',
+    ],
     rules: {
         "alpha-value-notation": null,
         "color-function-notation": "legacy",
