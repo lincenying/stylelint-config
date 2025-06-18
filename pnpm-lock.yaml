@@ -11,9 +11,6 @@ importers:
       '@stylistic/stylelint-plugin':
         specifier: ^3.1.2
         version: 3.1.2(stylelint@16.20.0)
-      stylelint:
-        specifier: ^16.20.0
-        version: 16.20.0
       stylelint-config-standard-scss:
         specifier: ^15.0.1
         version: 15.0.1(postcss@8.5.3)(stylelint@16.20.0)
@@ -33,6 +30,9 @@ importers:
       simple-open-url:
         specifier: ^3.0.1
         version: 3.0.1
+      stylelint:
+        specifier: ^16.20.0
+        version: 16.20.0
 
 packages:
 
