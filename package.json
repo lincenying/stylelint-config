@@ -1,7 +1,7 @@
 {
   "name": "@lincy/stylelint-config",
   "type": "module",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "packageManager": "pnpm@11.2.2",
   "description": "Stylelint configuration",
   "keywords": [
