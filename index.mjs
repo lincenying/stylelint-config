@@ -1,3 +1,6 @@
+import postcssHtml from "postcss-html";
+import postcssScss from "postcss-scss";
+
 export default {
     plugins: [
         "@stylistic/stylelint-plugin",
@@ -16,6 +19,42 @@ export default {
         'dist/*',
         'node_modules/*',
         'uni_modules/*',
+    ],
+    overrides: [
+        {
+            files: ["*.vue", "**/*.vue"],
+            customSyntax: postcssHtml({
+                scss: postcssScss,
+            }),
+            rules: {
+                "selector-pseudo-class-no-unknown": [
+                    true,
+                    {
+                        ignorePseudoClasses: ["deep", "global", "slotted", "export"],
+                    },
+                ],
+                "selector-pseudo-element-no-unknown": [
+                    true,
+                    {
+                        ignorePseudoElements: ["v-deep", "v-global", "v-slotted"],
+                    },
+                ],
+                "function-no-unknown": [
+                    true,
+                    {
+                        ignoreFunctions: ["v-bind"],
+                    },
+                ],
+                "declaration-property-value-no-unknown": [
+                    true,
+                    {
+                        ignoreProperties: {
+                            "/.*/": "/v-bind\\(.+\\)/",
+                        },
+                    },
+                ],
+            },
+        },
     ],
     rules: {
         "alpha-value-notation": null,
